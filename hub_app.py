@@ -180,7 +180,6 @@ if st.session_state.logged_in:
     # IMPORTANT: URLs REAIS DOS SEUS APLICATIVOS STREAMLIT DEPLOYADOS.
     # Se você não tiver um link para "Consulta CNPJ (Geral)", pode remover essa linha.
     app_urls = {
-        "Consulta CNPJ (Preço/Taxa)": "https://cnpjpricetax.streamlit.app/",
         "Consulta CNPJ Unitário": "https://cnpjpricetax.streamlit.app/",
         "Consulta CNPJ em Lote": "https://cnpjpricetaxlote.streamlit.app/",
         "Extrator Dados Chave de Acesso - 55": "https://dadosnf55.streamlit.app/"
