@@ -27,7 +27,7 @@ if not st.session_state.logged_in:
         if password_input == PASSWORD:
             st.session_state.logged_in = True
             st.success("Acesso concedido! Redirecionando...")
-            st.experimental_rerun() # Recarrega a página para mostrar o conteúdo do HUB
+            st.rerun() # <--- ALTERAÇÃO AQUI: st.experimental_rerun() para st.rerun()
         else:
             st.error("Senha incorreta. Tente novamente.")
             st.session_state.logged_in = False # Garante que não está logado
@@ -105,4 +105,4 @@ if st.session_state.logged_in:
     # Botão para sair (limpa o estado de login)
     if st.button("Sair do HUB", key="logout_button"):
         st.session_state.logged_in = False
-        st.experimental_rerun() # Recarrega a página para voltar para a tela de login
+        st.rerun() # <--- ALTERAÇÃO AQUI: st.experimental_rerun() para st.rerun()
