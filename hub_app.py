@@ -183,8 +183,7 @@ if st.session_state.logged_in:
         "Consulta CNPJ (Preço/Taxa)": "https://cnpjpricetax.streamlit.app/",
         "Consulta CNPJ Unitário": "https://cnpjpricetax.streamlit.app/",
         "Consulta CNPJ em Lote": "https://cnpjpricetaxlote.streamlit.app/",
-        "Consulta CNPJ (Geral)": "URL_DO_SEU_APP_CONSULTA_CNPJ_GERAL_AQUI"
-        "Extrator Dados Chave de Acesso - 55": "URL_DO_SEU_APP_CONSULTA_CNPJ_GERAL_AQUI"
+        "Extrator Dados Chave de Acesso - 55": "https://dadosnf55.streamlit.app/"
     }
 
     st.subheader("Ferramentas Disponíveis:")
